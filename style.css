@@ -1,0 +1,34 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.heading{
+  height: 9vh;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Graduate', cursive;
+  background-color: black;
+  color: white;
+}
+.images{
+
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  background: black;
+}
+.images img{
+  height: 90vh;
+  flex: 1;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.3s
+}
+.images img:hover{
+  flex:5;
+  cursor: pointer;
+}
